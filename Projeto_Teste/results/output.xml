@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220726 19:29:50.530" rpa="false" schemaversion="3">
+<suite id="s1" name="Projeto Teste" source="C:\Users\Willi\OneDrive\Documentos\Projeto_Teste">
+<suite id="s1-s1" name="TestesRobotSelenium" source="C:\Users\Willi\OneDrive\Documentos\Projeto_Teste\TestesRobotSelenium">
+<suite id="s1-s1-s1" name="TestCase" source="C:\Users\Willi\OneDrive\Documentos\Projeto_Teste\TestesRobotSelenium\TestCase">
+<suite id="s1-s1-s1-s1" name="Cadastro-Cliente" source="C:\Users\Willi\OneDrive\Documentos\Projeto_Teste\TestesRobotSelenium\TestCase\cadastro-cliente.robot">
+<test id="s1-s1-s1-s1-t1" name="Fazer o cadastro de um novo cliente" line="38">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220726 19:29:50.763" endtime="20220726 19:29:50.763"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL_CADASTRO_CLIENTE}</arg>
+<arg>${NAVEGADOR_DO_TESTE}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220726 19:29:50.764" level="INFO">Opening browser 'Chrome' to base url 'https://estivalet.github.io/robot-static-testing-site/index.html#'.</msg>
+<status status="PASS" starttime="20220726 19:29:50.764" endtime="20220726 19:29:52.794"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220726 19:29:52.794" endtime="20220726 19:29:53.233"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_NOME_DO_USERNAME}</arg>
+<arg>${LOGIN_PAGINA_USER_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220726 19:29:53.234" level="INFO">Typing text 'Jeferson@Barbosa' into text field 'id=username'.</msg>
+<status status="PASS" starttime="20220726 19:29:53.233" endtime="20220726 19:29:54.220"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_NOME_DO_PASSWORD}</arg>
+<arg>${LOGIN_PAGINA_USER_SENHA}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220726 19:29:54.221" level="INFO">Typing text '26041975' into text field 'id=password'.</msg>
+<status status="PASS" starttime="20220726 19:29:54.220" endtime="20220726 19:29:55.200"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CLICK_ELEMENT_LOGIN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220726 19:29:55.201" level="INFO">Clicking element 'id=login'.</msg>
+<status status="PASS" starttime="20220726 19:29:55.200" endtime="20220726 19:29:55.996"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CLICK_ELEMENT_CADASTRAR_CLIENTE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220726 19:29:55.997" level="INFO">Clicking element 'id=btn-cadastro-cliente'.</msg>
+<status status="PASS" starttime="20220726 19:29:55.996" endtime="20220726 19:29:57.062"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_NOME_DO_NOME_CLIENTE}</arg>
+<arg>Jferso Barbosa da Silva</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220726 19:29:57.063" level="INFO">Typing text 'Jferso Barbosa da Silva' into text field 'id=nome_cliente'.</msg>
+<status status="PASS" starttime="20220726 19:29:57.062" endtime="20220726 19:29:58.103"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_DATA_NASC_CLIENTE}</arg>
+<arg>26041975</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220726 19:29:58.104" level="INFO">Typing text '26041975' into text field 'id=dtnasc'.</msg>
+<status status="PASS" starttime="20220726 19:29:58.103" endtime="20220726 19:29:59.074"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_CPF_CLIENTE}</arg>
+<arg>34547541522</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220726 19:29:59.075" level="INFO">Typing text '34547541522' into text field 'id=cpf'.</msg>
+<status status="PASS" starttime="20220726 19:29:59.074" endtime="20220726 19:30:00.047"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CLICK_ELEMENT_SEXO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220726 19:30:00.048" level="INFO">Clicking element 'xpath=//input[@value='masculino']'.</msg>
+<status status="PASS" starttime="20220726 19:30:00.047" endtime="20220726 19:30:00.692"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_CEP_CLIENTE}</arg>
+<arg>08151160</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220726 19:30:00.692" level="INFO">Typing text '08151160' into text field 'id=cep'.</msg>
+<status status="PASS" starttime="20220726 19:30:00.692" endtime="20220726 19:30:01.672"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BUTTON_PESQUISAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220726 19:30:01.673" level="INFO">Clicking element 'xpath=//button[text()='Pesquisar']'.</msg>
+<status status="PASS" starttime="20220726 19:30:01.672" endtime="20220726 19:30:02.311"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_NUMERO_CASA_END}</arg>
+<arg>5595</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220726 19:30:02.313" level="INFO">Typing text '5595' into text field 'id=numero'.</msg>
+<status status="PASS" starttime="20220726 19:30:02.311" endtime="20220726 19:30:03.279"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>${SELECT_ESTADO_CIVIL_DO_CLIENTE}</arg>
+<arg>Casado(a)</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20220726 19:30:03.279" level="INFO">Selecting options from selection list 'id=estado-civil' by value Casado(a).</msg>
+<status status="PASS" starttime="20220726 19:30:03.279" endtime="20220726 19:30:05.442"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CHECK_TESTE_AUTOMATIZADOS}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220726 19:30:05.443" level="INFO">Clicking element 'xpath=//span[contains(text(),'Testes Automatizados')]/preceding::input[1]'.</msg>
+<status status="PASS" starttime="20220726 19:30:05.442" endtime="20220726 19:30:06.081"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CHECK_VIDEO_GAME}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220726 19:30:06.083" level="INFO">Clicking element 'xpath=//span[contains(text(),'Video Games')]/preceding::input[1]'.</msg>
+<status status="PASS" starttime="20220726 19:30:06.081" endtime="20220726 19:30:06.721"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BUTTON_CADASTRAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220726 19:30:06.722" level="INFO">Clicking element 'id=cadastrar'.</msg>
+<status status="PASS" starttime="20220726 19:30:06.721" endtime="20220726 19:30:07.358"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${CAMPO_MENSSAGEM}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220726 19:30:07.358" endtime="20220726 19:30:07.978"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Cliente cadastrado com sucesso!</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20220726 19:30:07.978" endtime="20220726 19:30:08.290"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220726 19:30:08.290" endtime="20220726 19:30:10.633"/>
+</kw>
+<status status="PASS" starttime="20220726 19:29:50.761" endtime="20220726 19:30:10.634"/>
+</test>
+<status status="PASS" starttime="20220726 19:29:50.569" endtime="20220726 19:30:10.636"/>
+</suite>
+<status status="PASS" starttime="20220726 19:29:50.563" endtime="20220726 19:30:10.638"/>
+</suite>
+<status status="PASS" starttime="20220726 19:29:50.559" endtime="20220726 19:30:10.641"/>
+</suite>
+<status status="PASS" starttime="20220726 19:29:50.534" endtime="20220726 19:30:10.643"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Projeto Teste">Projeto Teste</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestesRobotSelenium">Projeto Teste.TestesRobotSelenium</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="TestCase">Projeto Teste.TestesRobotSelenium.TestCase</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Cadastro-Cliente">Projeto Teste.TestesRobotSelenium.TestCase.Cadastro-Cliente</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

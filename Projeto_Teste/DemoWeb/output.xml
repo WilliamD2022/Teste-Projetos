@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220723 11:21:48.699" rpa="false" schemaversion="3">
+<suite id="s1" name="TestCasesBDDExemplo" source="c:\Users\Willi\OneDrive\Documentos\Projeto_Teste\DemoWeb\testes\TestCasesBDDExemplo.robot">
+<test id="s1-t1" name="Cenário 01: Pesquisar postagem Season Premiere" line="7">
+<kw name="Dado que esteja na tela HOME do blog robotizando testes">
+<msg timestamp="20220723 11:21:48.727" level="FAIL">No keyword with name 'Dado que esteja na tela HOME do blog robotizando testes' found.</msg>
+<status status="FAIL" starttime="20220723 11:21:48.727" endtime="20220723 11:21:48.727"/>
+</kw>
+<kw name="Quando pesquisar pela palavra &quot;introdução ao robot framework&quot;">
+<status status="NOT RUN" starttime="20220723 11:21:48.728" endtime="20220723 11:21:48.728"/>
+</kw>
+<kw name="Então a postagem &quot;Season Premiere: Introdução ao Robot Framework&quot; deve ser listada no resultado da pesquisa">
+<status status="NOT RUN" starttime="20220723 11:21:48.730" endtime="20220723 11:21:48.730"/>
+</kw>
+<status status="FAIL" starttime="20220723 11:21:48.725" endtime="20220723 11:21:48.731">No keyword with name 'Dado que esteja na tela HOME do blog robotizando testes' found.</status>
+</test>
+<test id="s1-t2" name="Cenário 02: Ler postagem Season Premiere" line="12">
+<kw name="Dado que esteja na tela de resultado da pesquisa pela postagem &quot;Season Premiere: Introdução ao Robot Framework&quot;">
+<msg timestamp="20220723 11:21:48.736" level="FAIL">No keyword with name 'Dado que esteja na tela de resultado da pesquisa pela postagem "Season Premiere: Introdução ao Robot Framework"' found.</msg>
+<status status="FAIL" starttime="20220723 11:21:48.736" endtime="20220723 11:21:48.737"/>
+</kw>
+<kw name="Quando clicar no link da postagem">
+<status status="NOT RUN" starttime="20220723 11:21:48.737" endtime="20220723 11:21:48.737"/>
+</kw>
+<kw name="Então a tela da postagem &quot;Season Premiere: Introdução ao Robot Framework&quot; deve ser mostrada">
+<status status="NOT RUN" starttime="20220723 11:21:48.739" endtime="20220723 11:21:48.739"/>
+</kw>
+<status status="FAIL" starttime="20220723 11:21:48.733" endtime="20220723 11:21:48.740">No keyword with name 'Dado que esteja na tela de resultado da pesquisa pela postagem "Season Premiere: Introdução ao Robot Framework"' found.</status>
+</test>
+<kw name="Fechar Navegador" type="TEARDOWN">
+<msg timestamp="20220723 11:21:48.744" level="FAIL">No keyword with name 'Fechar Navegador' found.</msg>
+<status status="FAIL" starttime="20220723 11:21:48.743" endtime="20220723 11:21:48.744">No keyword with name 'Fechar Navegador' found.</status>
+</kw>
+<status status="FAIL" starttime="20220723 11:21:48.701" endtime="20220723 11:21:48.744">Suite teardown failed:
+No keyword with name 'Fechar Navegador' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="TestCasesBDDExemplo">TestCasesBDDExemplo</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220723 11:21:48.721" level="ERROR">Error in file 'c:\Users\Willi\OneDrive\Documentos\Projeto_Teste\DemoWeb\testes\TestCasesBDDExemplo.robot' on line 2: Resource file 'BDDpt-br.robot' does not exist.</msg>
+<msg timestamp="20220723 11:21:48.724" level="ERROR">Error in file 'c:\Users\Willi\OneDrive\Documentos\Projeto_Teste\DemoWeb\testes\TestCasesBDDExemplo.robot' on line 3: Resource file 'ResourceBDD.robot' does not exist.</msg>
+</errors>
+</robot>

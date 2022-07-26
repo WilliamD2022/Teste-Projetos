@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220721 21:23:16.770" rpa="false" schemaversion="3">
+<suite id="s1" name="Teste" source="c:\Users\Willi\OneDrive\Documentos\Projeto_Teste\PrimeiroTesteRobot\teste">
+<suite id="s1-s1" name="Teste" source="c:\Users\Willi\OneDrive\Documentos\Projeto_Teste\PrimeiroTesteRobot\teste\teste.robot">
+<test id="s1-s1-t1" name="Cenário 01: Pesquisar postagem Season Premiere" line="6">
+<kw name="Dado que esteja na tela HOME do blog robotizando testes">
+<msg timestamp="20220721 21:23:16.796" level="FAIL">No keyword with name 'Dado que esteja na tela HOME do blog robotizando testes' found.</msg>
+<status status="FAIL" starttime="20220721 21:23:16.796" endtime="20220721 21:23:16.796"/>
+</kw>
+<kw name="Quando pesquisar pela palavra &quot;introdução ao robot framework&quot;">
+<status status="NOT RUN" starttime="20220721 21:23:16.798" endtime="20220721 21:23:16.798"/>
+</kw>
+<kw name="Então a postagem &quot;Season Premiere: Introdução ao Robot Framework&quot; deve ser listada no resultado da pesquisa">
+<status status="NOT RUN" starttime="20220721 21:23:16.798" endtime="20220721 21:23:16.798"/>
+</kw>
+<status status="FAIL" starttime="20220721 21:23:16.794" endtime="20220721 21:23:16.800">No keyword with name 'Dado que esteja na tela HOME do blog robotizando testes' found.</status>
+</test>
+<status status="FAIL" starttime="20220721 21:23:16.792" endtime="20220721 21:23:16.801"/>
+</suite>
+<status status="FAIL" starttime="20220721 21:23:16.772" endtime="20220721 21:23:16.804"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Teste">Teste</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Teste">Teste.Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
